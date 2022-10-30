@@ -19,6 +19,9 @@ class Coleccion():
         else:
             return False
 
+    def entregar_medios(self):
+        return [medio.name for medio in Medio]
+        
     def dar_medios(self):
         return [medio.name for medio in Medio]
 
