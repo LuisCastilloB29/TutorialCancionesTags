@@ -10,9 +10,10 @@ class Premios(enum.Enum):
     LATIN_GRAMI = 1
     MTV_AWARD = 2
     GRAMMY = 3
+    OTHER = 4
 
 
-class pREMIO(Base):
+class Premio(Base):
     __tablename__ = 'premio'
 
     id = Column(Integer, primary_key=True)
